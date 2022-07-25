@@ -1,0 +1,230 @@
+// Institucional
+$vermelho-tivit: #F20024;
+$vermelho-dark-tivit: #990017;
+$vermelho-light-tivit: #FF0D4D;
+// Apoio
+$cinza-tivit: #92A2AE;
+$cinza-dark-tivit: #454D54;
+$cinza-light-tivit: #CAD2D8;
+$preto-tivit: #000000;
+// Digital Business
+$verde-digital-tivit: #A2C037;
+$verde-dark-digital-tivit: #5EA62B;
+$verde-light-digital-tivit: #BCCF00;
+$cinza-digital-tivit: #A4ABA6;
+// Cloud Solutions
+$azul-cloud-tivit: #0085BD;
+$azul-dark-cloud-tivit: #005691;
+$azul-light-cloud-tivit: #009EE3;
+$cinza-cloud-tivit: #94A1AD;
+// Digital Payments
+$roxo-payments-tivit: #951B81;
+$roxo-dark-payments-tivit: #511966;
+$roxo-light-payments-tivit: #C0087F;
+$cinza-payments-tivit: #9B9AA7;
+// Technology Platform
+$laranja-tech-tivit: #F18700;
+$laranja-dark-tech-tivit: #EC6608;
+$laranja-dark-tech-tivit: #F59C00;
+$cinza-tech-tivit: #B2B2AD;
+// Cyber Security
+$cinza-cyber-tivit: #3A3A3A;
+$cinza-dark-cyber-tivit: #262626;
+$cinza-light-cyber-tivit: #616160;
+$amarelo-cyber-tivit: #F5D630;
+// Cores Internas
+$aqua-tivit: #A1E1D1;
+$aqua-dark-tivit: #5B9486;
+$aqua-light-tivit: #C7EDE3;
+$cinza-aqua-tivit: #7D8280;
+
+$pink-tivit: #FB63E1;
+$pink-dark-tivit: #CC5599;
+$pink-light-tivit: #FDA1ED;
+$cinza-pink-tivit: #847A83;
+
+$amarelo-tivit: #FEDC04;
+$amarelo-dark-tivit: #BFA503;
+$amarelo-light-tivit: #FEEA68;
+$cinza-amarelo-tivit: #FEEA68;
+// Tivit Labs
+$azul-tivit: #25B8E5;
+$magenta-tivit: #D22790;
+$azul-escuro-tivit: #262346;
+
+// Fim cores
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&family=Viga&display=swap');
+html, body, * {
+  font-family: 'Titillium Web', sans-serif;
+  background-color: transparent;
+  a{
+    font-family: 'Titillium Web', sans-serif;
+    text-decoration: none;
+  }
+  p{
+    font-family: 'Titillium Web', sans-serif;
+    max-width: 100%;
+    margin: 0;
+  }
+  // Img Responsive
+  img {
+    max-width: 100%;
+  }
+
+  // Hide Mobile
+  @media (max-width: 768px) {
+    .hide-mobile {
+      display: none!important;
+    }
+  }
+
+  // Hide Desktop
+  @media (min-width: 769px) {
+    .hide-desktop {
+      display: none!important;
+    }
+  }
+
+  // Títulos
+  h1{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 91.26px;
+  }
+
+  h2{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 54px;
+    z-index: 2;
+  }
+
+  h3{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+
+  h4{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+  }
+
+  h5{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+
+  h6{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30.42px;
+  }
+
+  // Botões
+  .button{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30.42px;
+  }
+
+  .button2{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27.38px;
+  }
+
+  .button3{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24.34px;
+    letter-spacing: 3%;
+  }
+
+  // Lead
+  .lead{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27.38px;
+  }
+
+  // Hyperlinks
+  a{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    line-height: 24.34px;
+    font-weight: 700;
+    color: $vermelho-tivit;
+  }
+
+  .nota-rodape{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18.25px;
+  }
+
+  .notificacoes{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 15.21px;
+  }
+
+
+  // Paragráfos
+  .paragrafo{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    line-height: 30.42px;
+    font-weight: 400;
+  }
+
+  .paragrafo2{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+
+  .paragrafo3{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    line-height: 24.34px;
+    font-weight: 400;
+  }
+
+  .paragrafo4{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 14px;
+    line-height: 21.29px;
+    font-weight: 700;
+  }
+
+  .paragrafo5{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 12px;
+    line-height: 18.25px;
+    font-weight: 400;
+  }
+
+  .paragrafo6{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 10px;
+    line-height: 15.21px;
+    font-weight: 400;
+  }
+}
