@@ -164,6 +164,8 @@ html .paragrafo6, body .paragrafo6, * .paragrafo6 {
   }
 }
 .slider-categoria .menu-categoria .nav .nav-item a {
+  border: unset;
+  border-radius: 0;
   cursor: pointer;
   padding-left: 40px;
   padding-right: 40px;
